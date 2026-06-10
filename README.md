@@ -69,6 +69,8 @@ Thank you to everyone supporting Taste Skill.
   <a href="https://github.com/bytewerk-dev"><img src="https://github.com/bytewerk-dev.png" width="40" height="40" style="border-radius:50%" alt="bytewerk-dev" title="bytewerk-dev" /></a>
 </p>
 
+## Contact
+
 <p align="center">
   <a href="https://x.com/lexnlin">
     <img src="https://img.shields.io/badge/DM%20me-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="DM me on X" />
@@ -77,3 +79,4 @@ Thank you to everyone supporting Taste Skill.
     <img src="https://img.shields.io/badge/Email-hello%40tasteskill.dev-0f172a?style=for-the-badge" alt="Email hello@tasteskill.dev" />
   </a>
 </p>
+
