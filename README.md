@@ -20,12 +20,6 @@ Taste Skill helps **Cursor**, **Codex**, **Claude Code**, **Devin**, and other A
   <a href="https://github.com/sponsors/Leonxlnx">
     <img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub Sponsors" />
   </a>
-  <a href="https://x.com/lexnlin">
-    <img src="https://img.shields.io/badge/DM%20me-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="DM me on X" />
-  </a>
-  <a href="mailto:hello@tasteskill.dev">
-    <img src="https://img.shields.io/badge/Email-hello%40tasteskill.dev-0f172a?style=for-the-badge" alt="Email hello@tasteskill.dev" />
-  </a>
 </p>
 
 ## Taste Skill
@@ -77,4 +71,11 @@ Thank you to everyone supporting Taste Skill.
 
 ## Contact
 
-Best way to reach me: **[DM me on X](https://x.com/lexnlin)** or email **[hello@tasteskill.dev](mailto:hello@tasteskill.dev)**.
+<p>
+  <a href="https://x.com/lexnlin">
+    <img src="https://img.shields.io/badge/DM%20me-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="DM me on X" />
+  </a>
+  <a href="mailto:hello@tasteskill.dev">
+    <img src="https://img.shields.io/badge/Email-hello%40tasteskill.dev-0f172a?style=for-the-badge" alt="Email hello@tasteskill.dev" />
+  </a>
+</p>
