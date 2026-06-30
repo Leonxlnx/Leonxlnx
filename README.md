@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Leonxlnx/Leonxlnx/main/assets/lumen-halftone-wide.gif" alt="Taste Skill visual banner" width="100%" />
 </p>
 
-# hey im leon
+# hey I'm leon
 
 Building **[Taste Skill](https://github.com/Leonxlnx/taste-skill)**: open-source design taste for AI coding agents.
 
