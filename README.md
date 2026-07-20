@@ -54,11 +54,11 @@ Thank you to everyone supporting Taste Skill.
 
 <table>
   <tr>
-    <td align="center" width="76"><picture>
+    <td align="center" width="156"><picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" />
-      <img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" alt="Kimi Open Source Friends" width="62" />
+      <img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" alt="Kimi Developer Support Program" width="140" />
     </picture></td>
-    <td><sub><strong>Kimi</strong> · Open Source Friends</sub></td>
+    <td><sub><strong>Kimi</strong> · Developer Support Program</sub></td>
   </tr>
   <tr>
     <td align="center" width="76"><a href="https://img.ly/"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/imgly-logo.svg" alt="IMG.LY" width="62" height="62" /></a></td>
