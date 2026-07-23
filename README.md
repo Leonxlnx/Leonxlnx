@@ -53,17 +53,15 @@ Company sponsors can get visibility on the GitHub README and **[tasteskill.dev](
 Thank you to everyone supporting Taste Skill.
 
 <p align="center">
-  <a href="https://novamira.ai/" title="Novamira">
-    <img src="https://github.com/use-novamira.png" alt="Novamira" width="180" />
-  </a>
+  <a href="https://novamira.ai/" title="Novamira"><img src="https://github.com/use-novamira.png" alt="Novamira" height="48" align="middle" /></a>
+  &nbsp;
+  <strong><a href="https://novamira.ai/">Novamira</a></strong> · Full WordPress access for AI agents
   &nbsp;&nbsp;&nbsp;&nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" />
-    <img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" width="420" />
+    <img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="48" align="middle" />
   </picture>
 </p>
-
-<p align="center"><sub><a href="https://novamira.ai/"><strong>Novamira</strong></a> · Full WordPress access for AI agents</sub></p>
 
 <table>
   <tr>
