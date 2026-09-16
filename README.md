@@ -54,13 +54,6 @@ Thank you to everyone supporting Taste Skill.
 
 <table align="center">
   <tr>
-    <td colspan="2"><strong>Gold Sponsors</strong></td>
-  </tr>
-  <tr>
-    <td align="center" width="120"><a href="https://novamira.ai/"><img src="https://github.com/use-novamira.png" alt="Novamira" width="62" height="62" /></a></td>
-    <td><sub><a href="https://novamira.ai/"><strong>Novamira</strong></a> · Full WordPress access for AI agents</sub></td>
-  </tr>
-  <tr>
     <td colspan="2"><strong>Silver Sponsors</strong></td>
   </tr>
   <tr>
@@ -105,11 +98,22 @@ Thank you to everyone supporting Taste Skill.
 
 <p align="center"><sub><a href="https://github.com/sponsors/Leonxlnx">Become a sponsor</a></sub></p>
 
+### Open Source Supporters
+
+<table align="center">
+  <tr>
+    <td align="center" width="120"><a href="https://www.kimi.com"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/kimi-icon.png" alt="Kimi" width="62" height="62" /></a></td>
+    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="48" /></picture></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="120"><a href="https://vercel.com/open-source-program"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/vercel-logo.svg" alt="Vercel" width="62" height="62" /></a></td>
+    <td><a href="https://vercel.com/open-source-program"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/vercel-oss-program-badge.svg" alt="Vercel Open Source Program" height="32" /></a></td>
+  </tr>
+</table>
+
 ### Community Sponsors
 
 <p>
-  <a href="https://www.kimi.com"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/kimi-icon.png" width="40" height="40" alt="Kimi Open Source Friends" title="Kimi Open Source Friends" /></a>
-  <a href="https://vercel.com/open-source-program"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/vercel-logo.svg" width="40" height="40" alt="Vercel Open Source Program" title="Vercel Open Source Program" /></a>
   <a href="https://github.com/dnakov"><img src="https://github.com/dnakov.png" width="40" height="40" style="border-radius:50%" alt="dnakov" title="dnakov" /></a>
   <a href="https://github.com/AkramReshad"><img src="https://github.com/AkramReshad.png" width="40" height="40" style="border-radius:50%" alt="AkramReshad" title="AkramReshad" /></a>
   <a href="https://github.com/ajmalaksar25"><img src="https://github.com/ajmalaksar25.png" width="40" height="40" style="border-radius:50%" alt="ajmalaksar25" title="ajmalaksar25" /></a>
