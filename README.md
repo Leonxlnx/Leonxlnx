@@ -58,7 +58,7 @@ Thank you to everyone supporting Taste Skill.
   </tr>
   <tr>
     <td align="center" width="120"><a href="https://fluxionai.world/register?source=github&amp;campaign=tasteskill&amp;promo=TASTESKILL"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/fluxion-ai.png" alt="Fluxion AI" width="80" height="80" /></a></td>
-    <td><sub><a href="https://fluxionai.world/register?source=github&amp;campaign=tasteskill&amp;promo=TASTESKILL"><strong>Fluxion AI</strong></a> provides reliable, cost-efficient access to GPT, Claude, and other leading AI models through one unified API.<br />Save up to 70% compared with official API pricing and get $1 in API credits when you sign up through this link.</sub></td>
+    <td><sub><a href="https://fluxionai.world/register?source=github&amp;campaign=tasteskill&amp;promo=TASTESKILL"><strong>Fluxion AI</strong></a> provides reliable, cost-efficient access to GPT, Claude, and other leading AI models through one unified API.<br />Save up to 70% compared with official API pricing and get $3 in API credits when you sign up through this link.</sub></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Bronze Sponsors</strong></td>
