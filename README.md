@@ -99,7 +99,7 @@ Thank you to everyone supporting Taste Skill.
 <table align="center">
   <tr>
     <td align="center" width="120"><a href="https://www.kimi.com"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/kimi-icon.png" alt="Kimi" width="62" height="62" /></a></td>
-    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="48" /></picture></a></td>
+    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="48" /></picture></a><br /><sub><a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&amp;aff=taste-skill"><strong>Get a Kimi API key</strong></a>: taste-skill users get 10% bonus API credits on their first purchase.</sub></td>
   </tr>
   <tr>
     <td align="center" width="120"><a href="https://vercel.com/open-source-program"><img src="https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/sponsors/vercel-logo.svg" alt="Vercel" width="62" height="62" /></a></td>
