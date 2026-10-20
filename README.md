@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Leonxlnx/Leonxlnx/main/assets/lumen-halftone-wide.gif" alt="Taste Skill visual banner" width="100%" />
-</p>
+
 
 # hey I'm leon
 
