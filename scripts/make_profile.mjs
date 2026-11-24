@@ -361,15 +361,42 @@ function logoData(file, mime) {
   return `data:${mime};base64,${fs.readFileSync(file).toString('base64')}`;
 }
 
+const chipTones = (theme) => (theme === 'dark' ? ['#efebe2', '#a8a49b'] : ['#0a0a0a', '#5c5c5c']);
+
 async function sponsorChip({ name, desc, logo, title }, theme) {
-  const ink = theme === 'dark' ? '#efebe2' : '#0a0a0a';
-  const soft = theme === 'dark' ? '#a8a49b' : '#5c5c5c';
+  const [ink, soft] = chipTones(theme);
   const w = 211, h = 52;
   const nameX = 5 + 44 + 11;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${title}">
 <title>${title}</title><defs><clipPath id="c"><rect x="5" y="4" width="44" height="44" rx="11"/></clipPath></defs>
 <image href="${logo[theme] ?? logo.any}" x="5" y="4" width="44" height="44" clip-path="url(#c)"/>
 ${text(BOLD, name, nameX, 24, 15, ink)}${text(SANS, desc, nameX, 41, 12.5, soft)}
+</svg>`;
+}
+
+// Splits a line into two of near equal width.
+function balance(f, s, size) {
+  const words = s.split(' ');
+  let best = [s, ''], widest = Infinity;
+  for (let i = 1; i < words.length; i++) {
+    const a = words.slice(0, i).join(' '), b = words.slice(i).join(' ');
+    const m = Math.max(width(f, a, size), width(f, b, size));
+    if (m < widest) [best, widest] = [[a, b], m];
+  }
+  return best;
+}
+
+// The lead sponsor takes the whole row above the chips, one step larger than them, with its own
+// line in full on two lines.
+function sponsorLead({ name, desc, logo }, theme) {
+  const [ink, soft] = chipTones(theme);
+  const w = 844, h = 84;
+  const nameX = 5 + 60 + 16;
+  const [a, b] = balance(SANS, desc, 13.5);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${desc}">
+<title>${desc}</title><defs><clipPath id="c"><rect x="5" y="12" width="60" height="60" rx="15"/></clipPath></defs>
+<image href="${logo[theme] ?? logo.any}" x="5" y="12" width="60" height="60" clip-path="url(#c)"/>
+${text(BOLD, name, nameX, 31, 19, ink, { track: -0.2 })}${text(SANS, a, nameX, 52, 13.5, soft)}${text(SANS, b, nameX, 70, 13.5, soft)}
 </svg>`;
 }
 
@@ -456,3 +483,6 @@ const sponsors = [
   { id: 'sentdm', name: 'Sent.dm', desc: 'Messaging API', title: 'Sent.dm, messaging API for SMS, WhatsApp and RCS', logo: { any: await pngLogo('sentdm.png') } },
 ];
 for (const s of sponsors) for (const theme of ['light', 'dark']) write(`sponsor-${s.id}-${theme}.svg`, await sponsorChip(s, theme));
+// SerpApi's line is theirs, word for word.
+const lead = { id: 'serpapi', name: 'SerpApi', desc: "SerpApi is the world's leading provider of search data, pioneering APIs that turn search engine results into structured, developer-ready information.", logo: { any: await svgLogo('serpapi-icon.svg') } };
+for (const theme of ['light', 'dark']) write(`sponsor-${lead.id}-${theme}.svg`, sponsorLead(lead, theme));
