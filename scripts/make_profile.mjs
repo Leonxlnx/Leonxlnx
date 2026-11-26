@@ -363,14 +363,15 @@ function logoData(file, mime) {
 
 const chipTones = (theme) => (theme === 'dark' ? ['#efebe2', '#a8a49b'] : ['#0a0a0a', '#5c5c5c']);
 
+// Five chips sit on one line under the 844-wide lead, so each is 168.
 async function sponsorChip({ name, desc, logo, title }, theme) {
   const [ink, soft] = chipTones(theme);
-  const w = 211, h = 52;
-  const nameX = 5 + 44 + 11;
+  const w = 168, h = 52;
+  const nameX = 54;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${title}">
-<title>${title}</title><defs><clipPath id="c"><rect x="5" y="4" width="44" height="44" rx="11"/></clipPath></defs>
-<image href="${logo[theme] ?? logo.any}" x="5" y="4" width="44" height="44" clip-path="url(#c)"/>
-${text(BOLD, name, nameX, 24, 15, ink)}${text(SANS, desc, nameX, 41, 12.5, soft)}
+<title>${title}</title><defs><clipPath id="c"><rect x="4" y="4" width="44" height="44" rx="11"/></clipPath></defs>
+<image href="${logo[theme] ?? logo.any}" x="4" y="4" width="44" height="44" clip-path="url(#c)"/>
+${text(BOLD, name, nameX, 24, 14.5, ink)}${text(SANS, desc, nameX, 41, 12, soft)}
 </svg>`;
 }
 
